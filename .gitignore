@@ -1,2 +1,2 @@
-# Created to ensure single bin file in each release (manually added to the release)
-#*.bin
+# Created to ensure single bin file in each release (manually added to the release), did include *.bin
+
