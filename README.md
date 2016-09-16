@@ -44,7 +44,7 @@ The GitHub for esptool.py is available for download [here](https://github.com/th
 
 esptool.py users a command line interface (CLI) rather than a graphical user interface (GUI) and the command instructions can be quite long, but you should be able to simply cut and paste them from this page.
 
-Once you have downloaded esptool.py you need to download the latest bin file for the game. The files are located here on GitHub and you want the one with the highest version number (as of 17th September 2016 it is [SmartBlynkieV1.0.3.bin](https://github.com/pieman64/test/blob/master/SmartBlynkieV1.0.3.bin "Click the Download button to receive your copy of Smart Blynkie for ESP devices.")).
+Once you have downloaded esptool.py you need to download the latest bin file for the game. The files are located here on GitHub and you want the one with the highest version number (as of 17th September 2016 it is [SmartBlynkieV1.0.3.bin](https://github.com/pieman64/test/blob/master/SmartBlynkieV1.0.3d.bin "Click the Download button to receive your copy of Smart Blynkie for ESP devices.")).
 
 **Move** the bin file to the directory where your copy of **esptool.py** is located (so for me on Windows 8.1 I have it at C:\ESPTool4python\esptool-master\). On most systems you will need Administrator / root access to be able to flash the bin file to your ESP. So for example with Windows 8.1 right click Command Prompt and click Run as Administrator. Then move to your esptool directory. For me it is cd C:\ESPTool4python\esptool-master\
 
