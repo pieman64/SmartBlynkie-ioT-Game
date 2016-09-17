@@ -49,9 +49,9 @@ void setup()
   // Put your setup code here, to run once
   Serial.begin(115200);
   Serial.println("\n Starting");
-  //Blynk.begin(auth, ssid, pass);             
-  //Blynk.config(auth, cloudserver);            // for Blynk's cloud server
-  Blynk.config(auth, localserver);              // for a local server
+  //Blynk.begin(auth, ssid, pass);                         // Blynk.config() if already connected to WiFi e.g. WiFiManager
+  //Blynk.begin(auth, ssid, pass, cloudserver);            // for Blynk's cloud server
+  Blynk.begin(auth, ssid, pass, localserver);              // for a local server
   int mytimeout = millis() / 1000;
   while (Blynk.connect(1000) == false) {        // wait here until connected to the server
     if((millis() / 1000) > mytimeout + 8){      // try to connect to the server for less than 9 seconds
